@@ -2,9 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing {
+  width: 90%;
+  
+}
+
+.landing-enter{
+  width: 300px;
+  height: 30px;
+  background-color: #7ea46692;
+  align-items: center;
+  border: 0;
+  margin-top: 10px;
+  font-size: 1.6rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
