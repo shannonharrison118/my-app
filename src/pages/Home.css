@@ -1,0 +1,16 @@
+.home {
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    background-color: #000000;
+}
+
+.background-img{
+    height: 100%;
+}
+
+.designer-button {
+    color: #FFFFFF;
+    background-color: #000000;
+}
