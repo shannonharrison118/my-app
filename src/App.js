@@ -1,5 +1,4 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import invite from './imgs/landing_invite.jpg';
 import { Link } from 'react-router-dom';
