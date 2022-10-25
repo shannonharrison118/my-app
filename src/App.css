@@ -18,3 +18,22 @@
   margin-top: 10px;
   font-size: 1.6rem;
 }
+
+.landing-button{
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 180px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1rem;
+  border: 0.1rem solid white;
+}
+
+a:link{
+  text-decoration: none;
+}
