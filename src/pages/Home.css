@@ -1,13 +1,58 @@
 .home {
-    gap: 100px;
-    width: 100%;
-    height: 100%;
-    margin-top: 60px;
+    width: 100vw;
+    height: 100vh;
     background-color: #000000;
 }
 
 .background-img{
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 0.3rem solid white;
+    width: 180px;
+    height: 100px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-button1{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+.left-button2{
+    position: absolute;
+    left: 350px;
+    top: 400px;
+}
+.left-button3{
+    position: absolute;
+    left: 350px;
+    top: 600px;
+}
+.right-button4{
+    position: absolute;
+    right: 350px;
+    top: 200px;
+}
+.right-button5{
+    position: absolute;
+    right: 350px;
+    top:400px;
+}
+.right-button6{
+    position: absolute;
+    right: 350px;
+    top: 600px;
 }
 
 .designer-button {

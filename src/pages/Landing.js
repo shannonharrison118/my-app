@@ -9,7 +9,7 @@ const Landing = () => {
   return (
     <div className="App">
       <img src={invite} className="landing" alt="invite" />
-      <Link to="/home" component={Home}><button className="button">~~~~~~~~~~~~~~~~~~</button></Link>
+      <Link to="/home" component={Home}><button className="button" class="landing-button">~~~~~~~~~~~~~~~~~~</button></Link>
     </div>
   );
 }
