@@ -1,9 +1,11 @@
 import React from 'react';
+import './kawakubo.css';
 
 const kawakubo = () => {
     return(
-        <div>
-            <p>heyyyy text on new page</p>
+        <div class="page">
+            <h1>Rei Kawakubo</h1>
+            <p>heyyyyy</p>
         </div>
     );
 };

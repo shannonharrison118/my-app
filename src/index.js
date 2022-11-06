@@ -4,12 +4,12 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
 import Home from './pages/Home';
-import kawakubo from './pages/designers/kawakubo';
-import theyskens from './pages/designers/theyskens';
-import tai from './pages/designers/tai';
-import margiela from './pages/designers/margiela';
-import knowles from './pages/designers/knowles';
-import fanning from './pages/designers/fanning';
+import Kawakubo from './pages/designers/kawakubo';
+import Theyskens from './pages/designers/theyskens';
+import Tai from './pages/designers/tai';
+import Margiela from './pages/designers/margiela';
+import Knowles from './pages/designers/knowles';
+import Fanning from './pages/designers/fanning';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,12 +19,12 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="home" element={<Home />} />
-        <Route path="kawakubo" element={<kawakubo />} />
-        <Route path="theyskens" element={<theyskens />} />
-        <Route path="tai" element={<tai />} />
-        <Route path="margiela" element={<margiela />} />
-        <Route path="knowles" element={<knowles />} />
-        <Route path="fanning" element={<fanning />} />
+        <Route path="kawakubo" element={<Kawakubo />} />
+        <Route path="theyskens" element={<Theyskens />} />
+        <Route path="tai" element={<Tai />} />
+        <Route path="margiela" element={<Margiela />} />
+        <Route path="knowles" element={<Knowles />} />
+        <Route path="fanning" element={<Fanning />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
