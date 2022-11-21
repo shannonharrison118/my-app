@@ -3,8 +3,22 @@
     color: #FFFFFF;
     width: 100vw;
     height: 100vh;
+    column-count: 2;
+    font-size: 0.9rem;
 }
 
 h1{
     margin: 0;
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+    margin-left: 10px;
+    column-span: 1;
+}
+
+.email{
+    color: #9a8585;
+    font-style: italic;
 }
