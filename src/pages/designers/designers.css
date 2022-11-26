@@ -3,7 +3,6 @@
     color: #FFFFFF;
     width: 100vw;
     height: 100vh;
-    column-count: 2;
     font-size: 0.9rem;
 }
 
@@ -15,10 +14,14 @@ h1{
 p{
     padding: 10px;
     margin-left: 10px;
-    column-span: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .email{
     color: #9a8585;
     font-style: italic;
+    margin-left: 50px;
+    margin-right: 80px;
 }

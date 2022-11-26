@@ -4,12 +4,12 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
 import Home from './pages/Home';
-import Kawakubo from './pages/designers/kawakubo';
-import Theyskens from './pages/designers/theyskens';
-import Tai from './pages/designers/tai';
-import Margiela from './pages/designers/margiela';
-import Knowles from './pages/designers/knowles';
-import Fanning from './pages/designers/fanning';
+import Kawakubo from './pages/designers/kawakubo.js';
+import Theyskens from './pages/designers/theyskens.js';
+import Tai from './pages/designers/tai.js';
+import Margiela from './pages/designers/margiela.js';
+import Knowles from './pages/designers/knowles.js';
+import Fanning from './pages/designers/fanning.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

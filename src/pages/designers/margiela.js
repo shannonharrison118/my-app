@@ -1,5 +1,5 @@
 import React from 'react';
-import './kawakubo.css';
+import './designers.css';
 
 const margiela = () => {
     return(
@@ -35,7 +35,7 @@ const margiela = () => {
             <p>After leaving the eponymous brand in 2099, Margiela did not actively work in the fashion industry anymore and has kept a low 
                 profile since then. In 2019, Margiela helped to produce a documentary outlining his early career and his time at the brand. 
                 In 2021, Margiela also debuted an art exhibition at the Lafayette Anticipations in Paris featuring over 20 different large-scale 
-                sculpture works. The Maison Margiela brand has continued though benign ran by his atelier team following his leaving of the brand 
+                sculpture works. The Maison Margiela brand has continued though being ran by his atelier team following his leaving of the brand 
                 until John Galliano was appointed the creative director in 2014. 
             </p>
         </div>
