@@ -1,9 +1,11 @@
 import React from 'react';
 import './designers.css';
+import Slideshow from '../designers/slides/kawakubo-slides';
 
 const kawakubo = () => {
     return(
         <div class="page">
+            <div class="info">
             <h1>Rei Kawakubo</h1>
             <p>Rei Kawakubo is the founder of the Comme des Garcons label and Dover Street Market. She is a Japanese fashion designer based in Tokyo and Paris. 
                 Kawakubo did not get formal fashion design training in school and instead attended Keio University in Japan where she studied fine arts and literature. 
@@ -25,8 +27,8 @@ const kawakubo = () => {
                 Often in each collection, there are three or so seeds of things that come together accidentally to form what appears to everyone else as a final product, but for me it is never ending. 
                 There is never a moment when I think, ‘this is working, this is clear.’ If for one second I think something is finished, the next thing would be impossible to do.
             </p>
-
-            
+            </div>
+            <Slideshow class="pics"/>
         </div>
     );
 };

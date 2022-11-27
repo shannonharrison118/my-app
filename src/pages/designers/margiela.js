@@ -4,6 +4,7 @@ import './designers.css';
 const margiela = () => {
     return(
         <div class="page">
+            <div class="info">
             <h1>Martin Margiela</h1>
             <p>Martin Margiela is a Belgian fashion designer who founded the French label Maison Margiela. 
                 Margiela has become one of the most iconic designers in recent fashion due to his specific upcycled 
@@ -32,12 +33,13 @@ const margiela = () => {
                 a deconstructed approach as well by exposing the seams of garments and using different pieces of various found 
                 garments such as turning a single leather glove into a purse and even making a waistcoat out of old broken fine porcelain plates. 
             </p>
-            <p>After leaving the eponymous brand in 2099, Margiela did not actively work in the fashion industry anymore and has kept a low 
+            <p>After leaving the eponymous brand in 2009, Margiela did not actively work in the fashion industry anymore and has kept a low 
                 profile since then. In 2019, Margiela helped to produce a documentary outlining his early career and his time at the brand. 
                 In 2021, Margiela also debuted an art exhibition at the Lafayette Anticipations in Paris featuring over 20 different large-scale 
                 sculpture works. The Maison Margiela brand has continued though being ran by his atelier team following his leaving of the brand 
                 until John Galliano was appointed the creative director in 2014. 
             </p>
+            </div>
         </div>
     )
 }

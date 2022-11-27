@@ -1,0 +1,22 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.containerSlide {
+    width: 400px;
+    margin: auto;
+    margin-right: 5px;
+    padding: auto;
+    
+}
+
+.containerSlide img {
+    height: 400px;
+    padding: auto;
+    display: flex;
+    margin: auto;
+}
+
+.containerSlide span {
+    text-align: center;
+    padding: 40px;
+    display: block;
+}

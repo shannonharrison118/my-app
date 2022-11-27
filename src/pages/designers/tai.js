@@ -4,6 +4,7 @@ import React from 'react';
 const tai = () => {
     return(
         <div class="page">
+            <div class="info">
             <h1>Peng Tai</h1>
             <p>Peng Tai grew up in Taiwan and graduated from the London College of Fashion in 2017 with a master’s 
                 degree in menswear. He then moved to Paris with wife Isa Kwai who serves as his muse and atelier manager. 
@@ -24,6 +25,7 @@ const tai = () => {
                 where Yin and Yang evolve to reach a balance and produce a variety of possibilities. Peng Tai is determined to 
                 spread Chinese culture and aesthetics in a more modern and avant-garde way in the global context”. 
             </p>
+            </div>
         </div>
     )
 }
