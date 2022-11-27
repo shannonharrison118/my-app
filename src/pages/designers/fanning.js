@@ -1,9 +1,11 @@
 import './designers.css';
 import React from 'react';
+import Slideshow from '../designers/slides/fanning-slides'
 
 const fanning = () => {
     return (
         <div class="page">
+            <div class="info">
            <h1>Laura and Deanna Fanning</h1>
            <p>Laura and Deanna Fanning are twins who grew up in Australian suburbs and moved to London by 2016 where 
             they enrolled in Central Saint Martin’s renowned MA fashion course together. They then had the opportunity to 
@@ -22,6 +24,9 @@ const fanning = () => {
             Laura saying her previous humanities experience makes you stop and think a bit more about what clothes mena and how they 
             communicate yourself as a being. 
         </p>
+        </div>
+
+        <Slideshow />
         </div>
     );
 };

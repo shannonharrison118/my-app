@@ -1,9 +1,11 @@
 import React from 'react';
 import './designers.css';
+import Slideshow from '../designers/slides/theyskens-slides'
 
 const theyskens = () => {
     return(
         <div class="page">
+            <div class="info">
             <h1>Olivier Theyskens</h1>
             <p>Olivier Theyskens is a Belgian fashion designer and is now the owner and designer of his namesake brand. 
                 He went to École Nationale Supérieure des Arts Visuels de la Cambre in Brussels to study Fashion Design 
@@ -31,6 +33,9 @@ const theyskens = () => {
                 namesake label was entirely self-funded and sought Maximiliano Nicolelli, who worked for LVMH and La Perla, as his Chief Executive. 
                 Theyskens’ has since been designing under his own name and has been the acting artistic director of Azzaro since 2020. 
             </p>
+            </div>
+
+            <Slideshow />
         </div>
     );
 };

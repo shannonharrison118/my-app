@@ -1,9 +1,11 @@
 import React from 'react';
 import './designers.css';
+import Slideshow from '../designers/slides/knowles-slides.js'
 
 const knowles = () => {
     return(
         <div class="page">
+            <div class="info">
             <h1>Charlotte Knowles</h1>
             <p>Charlotte Knowles graduated from Central Saint Martins in 2017 having previously interned for brands like 
                 Alexander McQueen, Acne Studios, Helmut Lang, and Gareth Pugh. She established her namesake brand with 
@@ -24,6 +26,9 @@ const knowles = () => {
                 since been picked up by large retailers such as SSENSE, Dover Street Market, and others which has greatly helped in 
                 the brands success thus far. 
             </p>
+            </div>
+
+            <Slideshow />
         </div>
     )
 }
