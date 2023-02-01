@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './fonts/PP Neue Montreal/PPNeueMontreal-Regular.ttf';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
 import Home from './pages/Home';

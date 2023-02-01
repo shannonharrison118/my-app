@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: local("PPNeueMontreal"),
+   url("./fonts/PP Neue Montreal/PPNeueMontreal-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
