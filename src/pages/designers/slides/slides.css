@@ -1,9 +1,13 @@
 @import "react-slideshow-image/dist/styles.css";
 
 .containerSlide {
-    width: 70vw;
-    height: 70vh;
+    width: 80vw;
+    height: 80vh;
     margin-top: 10%;
+    margin-bottom: 5rem;
+    background-image: url(../../../imgs/wall.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 
 .containerSlide img {
@@ -11,6 +15,7 @@
     padding: auto;
     display: flex;
     margin: auto;
+    padding-top: 9rem;
 }
 
 .containerSlide span {
