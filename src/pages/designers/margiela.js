@@ -42,7 +42,9 @@ const margiela = () => {
             </p>
             </div>
 
-            <Slideshow />
+            <div class="slidess">
+                <Slideshow />
+            </div>
         </div>
     )
 }

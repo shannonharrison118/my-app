@@ -1,11 +1,9 @@
 @import "react-slideshow-image/dist/styles.css";
 
 .containerSlide {
-    width: 500px;
-    margin: auto;
-    margin-right: 5px;
-    padding: auto;
-    
+    width: 70vw;
+    height: 70vh;
+    margin-top: 10%;
 }
 
 .containerSlide img {

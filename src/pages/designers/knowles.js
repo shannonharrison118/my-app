@@ -28,7 +28,9 @@ const knowles = () => {
             </p>
             </div>
 
-            <Slideshow />
+            <div class="slidess">
+                <Slideshow />
+            </div>
         </div>
     )
 }

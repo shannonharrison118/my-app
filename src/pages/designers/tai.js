@@ -28,7 +28,9 @@ const tai = () => {
             </p>
             </div>
 
-            <Slideshow />
+            <div class="slidess">
+                <Slideshow />
+            </div>
         </div>
     )
 }

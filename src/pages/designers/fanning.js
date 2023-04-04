@@ -26,7 +26,9 @@ const fanning = () => {
         </p>
         </div>
 
-        <Slideshow />
+        <div class="slidess">
+                <Slideshow />
+            </div>
         </div>
     );
 };

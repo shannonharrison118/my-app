@@ -6,8 +6,7 @@ import img3 from '../../../imgs/kawakubo/watanabe-tao-kawakubo.jpeg'
 import img4 from '../../../imgs/kawakubo/2d-doll.jpg'
 import img5 from '../../../imgs/kawakubo/2016-avant-garde.jpeg'
 import img6 from '../../../imgs/kawakubo/hole-sweater.jpg'
-import './slides.css'
-
+import './horizontal.css';
 
 const proprietes = {
     duration: 5000,
@@ -30,31 +29,31 @@ const Slideshow = () => {
                 <div className="each-slide">
                     <div>
                         <img src={img2} alt="img2" />
-                        <span>some desgins from infamous 'Lumps and Bumps' line from Comme des Garcons challenging the notion of the female form</span>
+                        <span>infamous lumps and bumps collection</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img3} alt="img3" />
-                        <span>left to right: designs from Junya Watanabe, Tao Kurihara, and Rei Kawakubo</span>
+                        <span>left to right: Junya Watanabe, Tao Kurihara, Rei Kawakubo</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img4} alt="img4" />
-                        <span>famous collection designed to look like a 2d paper doll, commentating on the "flat" nature of fashion</span>
+                        <span>paper doll collection</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img5} alt="img5" />
-                        <span>avant garde design that is constant in Kawakubo's work</span>
+                        <span>avant-garde look</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img6} alt="img6" />
-                        <span>infamous 'hole sweater' as Kawakubo created a new style and technique of knitwear with holes in pieces</span>
+                        <span>special hole sweater that used a unique knitting style to create the holes</span>
                     </div>
                 </div>
             </Slide>

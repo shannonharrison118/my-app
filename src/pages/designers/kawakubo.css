@@ -1,4 +1,4 @@
-.page{
+.bio{
     background-color: #000000;
     color: #FFFFFF;
     width: 100vw;
@@ -9,10 +9,10 @@
     padding-left: 3rem;
 }
 
-.info{
+.writing{
     width: 100%;
 }
-.info p{
+.writing p{
     width: 70%;
     font-size: 0.95rem;
 }
