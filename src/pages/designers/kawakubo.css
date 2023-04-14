@@ -13,20 +13,26 @@
     width: 100%;
 }
 .writing p{
-    width: 70%;
+    width: 80%;
     font-size: 0.95rem;
 }
 
-h1{
+h1, h2{
     margin: 0;
     padding: 10px;
     grid-column: 1;
-    width: 80%;
+    width: 90%;
 }
 
 p{
     padding: 5px;
     margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: italic;
 }
 
 .email{

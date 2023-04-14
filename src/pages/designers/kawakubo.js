@@ -1,21 +1,31 @@
 import React from 'react';
-import './designers.css';
-import Slideshow from '../designers/slides/kawakubo-slides';
+import './kawakubo.css';
+import Slideshow1 from './slides/kawakubo-slides1';
+import Slideshow2 from './slides/kawakubo-slides2'
+import { Link } from 'react-router-dom';
 
 const kawakubo = () => {
     return(
         <div class="page">
-            <div class="info">
+            <div class="writing">
                 <h1>Rei Kawakubo</h1>
-                <p>Rei Kawakubo is the founder of the Comme des Garcons label and Dover Street Market. She is a Japanese fashion designer based in Tokyo and Paris.
-                    Kawakubo did not get formal fashion design training in school and instead attended Keio University in Japan where she studied fine arts and literature.
-                    After graduating, Kawakubo worked in advertising for a textile company for three years and then became a freelance stylist.
-                    After two years, she began designing and making her own clothes under the name Comme des Garcons, meaning “like the boys” in french, and fully incorporated the label in 1973.
-                    Kawakubo opened her first Tokyo boutique in 1975 and also added a menswear line “Comme des Garcons Homme” in 1978.
+                <br></br>
+                <p>Rei Kawakubo is a Japanese fashion designer who founded the Comme Des Garcons label and Dover Street Market.</p>
+                <h2>Biography</h2>
+                <p>Kawakubo grew up in Tokyo and was the oldest daughter, and only girl, of three kids in her family. 
+                    Her father was an administrator at Keio University, a prestigious institution that championed Western culture and 
+                    women’s rights. Kawakubo later went on to attend Keio University studying Fine Arts and Literature, which she called 
+                    the ‘history of aesthetics’ learning about both Eastern and Western works. After graduation, Kawakubo worked in 
+                    advertising for a textile company, starting in 1964, and then transitioned to a freelance stylist in 1967. 
+                    After two years of styling, she began making her own clothes under the label Comme Des Garcons, meaning “like the boys” 
+                    in French, and incorporated the brand name in 1973. Kawakubo opened her first Tokyo boutique in 1975 and also added a 
+                    menswear line “Comme des Garcons Homme” in 1978. 
                 </p>
-                <p>In 1981, Kawakubo presented her first collection at Paris fashion Week and is noted to be one of the main forces in bringing Japanese fashion to the West.
-                    Other designers noted alongside her include Yohji Yamamoto, who also showed in Paris Fashion Week that year. Kawakubo and Yamamoto dated in the 1980’s-90’s
-                    and are said to have influenced each other's fashion at the time, as they have similar aesthetics and design codes.
+                <p>In 1981, Kawakubo presented her first collection at Paris fashion Week and opened her first boutique in Paris in 1982. 
+                    Kawakubo is noted to be one of the main forces in bringing Japanese fashion to the West, alongside <Link to="/yamamoto">Yohji Yamamoto</Link>, 
+                    who also showed in Paris Fashion Week that year. Kawakubo and Yamamoto dated in the 1980’s-90’s and are said to 
+                    have influenced each other's fashion at the time, as they have similar aesthetics and design codes, but they did 
+                    not intentionally move to Paris together. 
                 </p>
                 <p>Being from a non-technical background, Kawakubo’s design process also follows an unconventional flow that she is revered for.
                     In an email when asked about her process, she said
@@ -29,7 +39,10 @@ const kawakubo = () => {
                 </p>
             </div>
             <div class="slidess">
-                <Slideshow class="pics" />
+                <Slideshow2 />
+            </div>
+            <div class="slidess">
+                <Slideshow1 />
             </div>
         </div>
     );
