@@ -13,8 +13,8 @@
     width: 100%;
 }
 .writing p{
-    width: 80%;
-    font-size: 0.95rem;
+    width: 60%;
+    font-size: 1.05rem;
 }
 
 h1, h2{
@@ -48,6 +48,7 @@ a{
     align-items:center;
     justify-content: center;
     right: 100px;
+    margin-top: -5%;
 }
 
 .font-face-gm {

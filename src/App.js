@@ -11,8 +11,8 @@ console.log(invite);
 const App = () => {
   return (
     <div className="App">
-      <img src={invite} className="landing" alt="invite" />
-      <Link to="/home" component={Home}><button className="button" class="landing-button">~~~~~~~~~~~~~~~~~~</button></Link>
+      
+      <Link to="/home" component={Home}><img src={invite} className="landing" alt="invite" /></Link>
     </div>
   );
 }

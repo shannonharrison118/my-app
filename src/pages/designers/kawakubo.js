@@ -23,10 +23,14 @@ const kawakubo = () => {
                 </p>
                 <p>In 1981, Kawakubo presented her first collection at Paris fashion Week and opened her first boutique in Paris in 1982. 
                     Kawakubo is noted to be one of the main forces in bringing Japanese fashion to the West, alongside <Link to="/yamamoto">Yohji Yamamoto</Link>, 
-                    who also showed in Paris Fashion Week that year. Kawakubo and Yamamoto dated in the 1980’s-90’s and are said to 
-                    have influenced each other's fashion at the time, as they have similar aesthetics and design codes, but they did 
-                    not intentionally move to Paris together. 
+                    who also showed in Paris Fashion Week that year. 
                 </p>
+            </div>
+            <div class="slidess">
+                <Slideshow2 />
+            </div>
+            <div class="writing">
+                <h2>Early Work and Design Process</h2>
                 <p>Being from a non-technical background, Kawakubo’s design process also follows an unconventional flow that she is revered for.
                     In an email when asked about her process, she said
                 </p>
@@ -37,9 +41,6 @@ const kawakubo = () => {
                     Often in each collection, there are three or so seeds of things that come together accidentally to form what appears to everyone else as a final product, but for me it is never ending.
                     There is never a moment when I think, ‘this is working, this is clear.’ If for one second I think something is finished, the next thing would be impossible to do.
                 </p>
-            </div>
-            <div class="slidess">
-                <Slideshow2 />
             </div>
             <div class="slidess">
                 <Slideshow1 />
