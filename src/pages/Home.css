@@ -20,7 +20,7 @@
     text-align: left;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -53,7 +53,6 @@
     position: absolute;
     right: 350px;
     top: 600px;
-    font-size: 1.6rem;
 }
 
 .designer-button {

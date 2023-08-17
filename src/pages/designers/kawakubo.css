@@ -54,3 +54,13 @@ a{
 .font-face-gm {
     font-family: "PPNeueMontreal";
    }
+
+.writing > .team{
+    line-height: 0.9rem;
+    font-size: 0.85rem;
+    padding-left: 3rem;
+}
+
+.writing > .team > p{
+    width: 80%;
+}

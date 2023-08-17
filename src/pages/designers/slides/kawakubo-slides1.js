@@ -1,11 +1,12 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image'
-import img1 from '../../../imgs/kawakubo/rei-portrait.jpg'
-import img2 from '../../../imgs/kawakubo/lumps-and-bumps.png'
-import img3 from '../../../imgs/kawakubo/watanabe-tao-kawakubo.jpeg'
-import img4 from '../../../imgs/kawakubo/2d-doll.jpg'
-import img5 from '../../../imgs/kawakubo/2016-avant-garde.jpeg'
-import img6 from '../../../imgs/kawakubo/hole-sweater.jpg'
+import img1 from '../../../imgs/kawakubo/cdg-pattern.png'
+import img2 from '../../../imgs/kawakubo/cdg-fabric.png'
+import img3 from '../../../imgs/kawakubo/cdg-fw84.jpeg'
+import img4 from '../../../imgs/kawakubo/cdg-backstage-ss88.png'
+import img5 from '../../../imgs/kawakubo/cdg-hole-1982.png'
+import img6 from '../../../imgs/kawakubo/cdg-christy-1986.png'
+import img7 from '../../../imgs/kawakubo/cdg-team.png'
 import './horizontal.css';
 
 const proprietes = {
@@ -23,39 +24,51 @@ const Slideshow = () => {
                 <div className="each-slide">
                     <div>
                         <img src={img1} alt="img1" />
-                        <span>Rei Kawakubo</span>
+                        <span>Pattern cutting room in Aoyama Office</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img2} alt="img2" />
-                        <span>infamous lumps and bumps collection</span>
+                        <span>Fabric producer, Hiroshi Matasushita, who worked closely with Kawakubo</span>
+                    </div>
+                </div>
+                <div className="each-slide">
+                    <div>
+                        <img src={img7} alt="img7" />
+                        <span>Full CDG team</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img3} alt="img3" />
-                        <span>left to right: Junya Watanabe, Tao Kurihara, Rei Kawakubo</span>
+                        <span>Look from Fall/Winter 1984 collection</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img4} alt="img4" />
-                        <span>paper doll collection</span>
+                        <span>Models backstage at Spring/Summer 1988 collection</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img5} alt="img5" />
-                        <span>avant-garde look</span>
+                        <span>Catalog photo of infamous hole sweater from 1982</span>
                     </div>
                 </div>
                 <div className="each-slide">
                     <div>
                         <img src={img6} alt="img6" />
-                        <span>special hole sweater that used a unique knitting style to create the holes</span>
+                        <span>Christy Turlington for collection catalog in 1986</span>
                     </div>
                 </div>
+                {/* <div className="each-slide">
+                    <div>
+                        <img src={img8} alt="img8" />
+                        <span>snippet from interview with Rei Kawakubo</span>
+                    </div>
+                </div> */}
             </Slide>
         </div>
     )

@@ -3,17 +3,19 @@
 .containerSlide {
     width: 75vw;
     height: 80vh;
+    max-width:1100px;
+    max-height: 1200px;
     margin-top: 10%;
     margin-bottom: 5rem;
     background-image: url(../../../imgs/wall.png);
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:contain;
+    background-size:cover;
     border: 4px white solid;
 }
 
 .containerSlide img {
     height: 350px;
-    padding-top: 8rem;
+    padding-top: 9rem;
     display: flex;
     margin: auto;
 }
