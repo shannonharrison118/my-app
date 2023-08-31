@@ -11,7 +11,6 @@ console.log(invite);
 const App = () => {
   return (
     <div className="App">
-      
       <Link to="/home" component={Home}><img src={invite} className="landing" alt="invite" /></Link>
     </div>
   );

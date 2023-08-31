@@ -11,6 +11,7 @@ import Tai from './pages/designers/tai.js';
 import Margiela from './pages/designers/margiela.js';
 import Knowles from './pages/designers/knowles.js';
 import Fanning from './pages/designers/fanning.js';
+import KawBookshelf from './pages/bookshelves/kawakubo-bookshelf.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,8 +20,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="home" element={<Home />} />
-        <Route path="kawakubo" element={<Kawakubo />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/kawakubo" element={<Kawakubo />} />
+        <Route path="/kawakubo/bookshelf" element={<KawBookshelf />} />
         <Route path="theyskens" element={<Theyskens />} />
         <Route path="tai" element={<Tai />} />
         <Route path="margiela" element={<Margiela />} />

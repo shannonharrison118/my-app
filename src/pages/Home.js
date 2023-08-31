@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import room from '../imgs/3d-room-grid.jpg';
 import { Link } from 'react-router-dom';
-import kawakubo from './designers/kawakubo';
+import kawakubo from './designers/kawakubo.js';
 import theyskens from './designers/theyskens';
 import tai from './designers/tai';
 import margiela from './designers/margiela';
@@ -20,7 +20,6 @@ const divStyle = {
 const Home = () => {
     return(
         <div class='home' style={divStyle}>
-            
             <Link to="/kawakubo" component={kawakubo}><button className="button" class="button left-button1">REI KAWAKUBO</button></Link>
             {/* <Link to="/theyskens" component={theyskens}><button className="button" class="button left-button2">OLIVIER THEYSKENS</button></Link> */}
             <Link to="/home" component={tai}><button className="button" class="button left-button3">*coming soon*</button></Link>
