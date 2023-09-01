@@ -6,6 +6,7 @@ import Slideshow3 from './slides/kawakubo-slides3';
 import Slideshow4 from './slides/kawakubo-slides4';
 import { Link } from 'react-router-dom';
 import bookshelf from '../bookshelves/kawakubo-bookshelf';
+import home from '../Home.js';
 
 const kawakubo = () => {
     return(
@@ -146,6 +147,9 @@ const kawakubo = () => {
                 <div id="bs-kawa">
                     <Link to="/kawakubo/bookshelf" component={bookshelf}><h4>Rei Kawakubo Bookshelf</h4></Link>
                     <br />
+                    <br />
+                    <br />
+                    <Link to="/home" component={home}><h4>back</h4></Link>
                     <br />
                 </div>
             </div>

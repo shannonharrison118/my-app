@@ -265,6 +265,78 @@ const kawaBookshelf = () => {
                     
                 </div>
             </div>
+            <h2>List of Books</h2>
+            <p>*unaware if these are available online but if you can gain access to these, reading is the best way to learn. :)</p>
+            <div class="row">
+                <div class="col-1">
+                    <h3><i>Rei Kawakubo: For and Against Fashion</i></h3>
+                    <h5>Edited by Rex Butler</h5>
+                    <p>Collection of 14 essays from prominent fashion theorists that analyze the relationship between
+                        Kawakubo's work and art, philosophy, and architecture, thus allowing us to understand the notion
+                        of fashion as a whole.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <a href="https://books.google.com/books?id=DY4mDwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" target="_blank" rel="noreferrer">
+                        <h3><i>*Rei Kawakubo/Comme des Garcons: The Art of the In-Between</i></h3>
+                        <h5>By Andrew Bolton</h5>
+                        <p>A book based on the Met Exhibit from 2017 that includes photos and writings on each section of the exhibit.
+                            (Can be read for free online.)
+                        </p>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <h3><i>ReFusing Fashion: Rei Kawakubo</i></h3>
+                    <h5>By Harold Koda, Sylvia Lanvin, Judith Thurman, Marsha Miro, and Museum of Contemporary Art Detroit</h5>
+                    <p>ReFusing Fashion presents over 40 key garments, costumes from Kawakubo's collaboration with Merce Cunningham, 
+                        photographs, runway footage and ephemera.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h3><i>Dreaming in Print: A Decade of Visionaire</i></h3>
+                    <h5>By Rei Kawakubo, Nick Knight, David Bowie, Nan Goldin, and more</h5>
+                    <p><i>Visionaire</i> was one of the biggest fashion and art publications and this issue is a look back to the
+                        history of the magazine. Rei Kawakubo is credited as a contributor for talking about her work, creative process,
+                        and experience with <i>Visionaire</i>.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h3><i>Rei Kawakubo: Designer Monographs</i></h3>
+                    <h5>By Terry Jones</h5>
+                    <p>i-D examines Kawakubo’s complex and conceptual world, digging through the magazines archive and revisiting 
+                        interviews which explore how the fashion house continues to challenge the Western ideals of body shape 
+                        and garment construction.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <h3><i>Fashion 2001 Landed: Mode 2001 Geland</i></h3>
+                    <h5>By Luc Derycke and Walter Van Beirendonck</h5>
+                    <p>Rei Kawakubo is one of two women examined in this book that explores the event that was Landed-Geland,
+                        a six-month, citywide, multimedia extravaganza that recently colored and clothed the city of Antwerp
+                        in the name of fashion.
+                    </p>
+                </div>
+                <div class="col-3">
+                    <h3><i>Comme des Garcons (Fashion Memoir)</i></h3>
+                    <h5>By France Grand</h5>
+                    <p>In the Universe of Fashion series, this book features ten to 15 pages of biography, 50 pages or so of photographs 
+                        illustrating the designer's work, a career chronology, and credits accompanied by thumbnails of 
+                        the larger photographs.
+                    </p>
+                    <p><small>Part of this book is available above through archivepdf.net</small></p>
+                </div>
+                <div class="col-4">
+                    <h3><i>Rei Kawakubo and Commes des Garçons</i></h3>
+                    <h5>By Deyan Sudjic</h5>
+                    <p>Rei Kawakubo and Comme des Garçons. By Deyan Sudjic. Published by Rizzoli in 1990. This is the great book 
+                        of Kawakubo as designer - of clothes, furniture and store interiors.
+                    </p>
+                    <p><small>Part of this book is available above through archivepdf.net</small></p>
+                </div>
+            </div>
+            
             <div class="back">
                 <Link to="/kawakubo" component={kawakubo}><h3>back</h3></Link>
             </div>
